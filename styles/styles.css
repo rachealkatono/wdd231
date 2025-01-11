@@ -182,14 +182,10 @@ footer img {
     margin-top: 2px;
 }
 
-/* Remove the span padding since it's not needed for this layout */
 span {
     padding: 0;
 }
 
-figure {
-    padding-left: 155px;
-}
 
 body {
     font-family: Arial, sans-serif;
