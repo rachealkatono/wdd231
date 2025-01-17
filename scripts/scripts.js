@@ -1,6 +1,22 @@
-document.getElementById("currentyear").textContent = new Date().getFullYear();
-document.getElementById("last-modified-date").textContent = document.lastModified;
-  // Course List Array
+// Update the current year dynamically in the footer
+const currentYearElement = document.getElementById("currentyear");
+if (currentYearElement) {
+    currentYearElement.textContent = new Date().getFullYear();
+}
+
+// Update the "last modified" date dynamically in the footer
+const lastModifiedElement = document.getElementById("last-modified-date");
+if (lastModifiedElement) {
+    lastModifiedElement.textContent = document.lastModified;
+}
+const hamburgerButton = document.getElementById("hamburger");
+const navMenu = document.getElementById("navMenu");
+
+if (hamburgerButton && navMenu) {
+    hamburgerButton.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+    });
+}
   const courses = [
     {
       subject: "CSE",

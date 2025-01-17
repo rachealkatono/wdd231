@@ -28,7 +28,7 @@ header {
 
 .navbar ul li a {
     padding: 50px;
-    font-size: 1.5em;
+    font-size: 1rem;
     text-decoration: none;
     color: #fff;
     transition: all 0.4s ease; /* Corrected transition */
@@ -59,7 +59,69 @@ header {
     color: #e3dede;
     padding-right: 40px;
 }
+/* Base styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #100202;
+}
 
+.nav-menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.hamburger {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #f7f7f8;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fbf7f7;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    #hamburger {
+        display: flex; 
+    }
+
+    #navMenu {
+        display: none;
+    }
+    #navMenu.show {
+        display: flex;
+        flex-direction: row; 
+    }
+}
 section {
     margin-top: 10px;
     display: flex;
@@ -185,8 +247,6 @@ footer img {
 span {
     padding: 0;
 }
-
-
 body {
     font-family: Arial, sans-serif;
   }
