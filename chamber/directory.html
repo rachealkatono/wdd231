@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="European Travel Destinations">
+    <meta property="og:type" content="website" >
+    <meta property="og:image" content="images/chamber-directory.png">
+    <meta property="og:url" content="https://yourprojecturl.com">
+    <meta name="facebook:card" content="summary_large_image">
+    <meta name="description" content="Rachealkatono, BYU-Idaho WDD 231 course home page">
+    <meta name="author" content="Rachealkatono">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Chamber of Commerce Directory page</title>
+</head>
+<body>
+    <header class="header">
+        <img src="images/city.png" alt="CityConnect Business Chamber Logo">
+        <nav>
+          <a href="#" aria-label="Navigate to Home">Home</a>
+          <a href="#" aria-label="Navigate to Directory">Directory</a>
+          <a href="#" aria-label="Navigate to About Us">About</a>
+          <a href="#" aria-label="Navigate to Contact Us">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="hero-content">
+            <h1>Chamber Directory web</h1>
+            <a href="#" class="hero-button" aria-label="Learn more about the CityConnect Business Chamber Directory">LEARN MORE</a>
+          </div>
+        </section>
+        <div class="content">
+          <h2>Welcome to the CityConnect Business Directory</h2>
+          <p>Your gateway to local businesses, fostering growth and collaboration in our community.</p>
+          <button id="toggleView" aria-label="Toggle between list and grid view">toggle View</button>
+          <div id="memberContainer" class="list-view">
+          </div>
+        </div>
+        </main>
+        
+        <footer class="footer">
+          <div class="business-cards">
+            <div class="business-card">
+              <img src="images/chemical.jpg" alt="Chemical Ali">
+              <div class="card-info">
+                <p class="name">Chemical Ali</p>
+                <p class="position">CEO</p>
+                <p class="company">CityConnect Chamber of Commerce</p>
+              </div>
+            </div>
+            <div class="business-card">
+              <img src="images/Roike.jpg" alt="Roike Smith">
+              <div class="card-info">
+                <p class="name">Roike Smith</p>
+                <p class="position">Director</p>
+                <p class="company">CityConnect Chamber of Commerce</p>
+              </div>
+            </div>
+            <div class="business-card">
+              <img src="images/Jamima.jpg" alt="Jamima Racheals">
+              <div class="card-info">
+                <p class="name">Jamima Racheals</p>
+                <p class="position">Member</p>
+                <p class="company">CityConnect Chamber of Commerce</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-info">
+            <p>Email us at: <a href="mailto:info@cityconnect.com">info@cityconnect.com</a></p>
+            <p>Visit us: 123 Business Lane, Citytown, USA</p>
+          </div>
+ 
+        <div class="social-icons">
+          <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter page"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; <span id="currentYear"></span> | Last Updated: <span id="lastModified"></span></p>
+      </footer>
+      <script src="scripts/scripts.js" defer></script>
+</body>
+</html>
