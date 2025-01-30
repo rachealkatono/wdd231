@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="European Travel Destinations">
-    <meta property="og:type" content="website" >
+    <meta property="og:type" content="website">
     <meta property="og:image:alt" content="CityConnect Business Chamber Logo">
     <meta property="og:image" content="https://rachealkatono.github.io/wdd231/chamber/images/chamber.jpeg">
     <meta property="og:url" content="https://rachealkatono.github.io/wdd231/chamber/directory.html">
     <meta property="og:description" content="Discover local businesses and foster collaboration with CityConnect Chamber of Commerce.">
     <meta name="facebook:card" content="summary_large_image">
     <meta name="description" content="Rachealkatono, BYU-Idaho WDD 231 course home page">
-    <meta name="author" content="Rachealkatono">   
+    <meta name="author" content="Rachealkatono">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
@@ -26,83 +26,66 @@
             <h1>CityConnect Business Chamber</h1>
         </div>
         <nav>
-          <button id="hamburger">☰</button>
-          <nav id="navMenu" class="nav-menu">
-          <a href="#" aria-label="Navigate to Home">Home</a>
-          <a href="#" aria-label="Navigate to Directory">Directory</a>
-          <a href="#" aria-label="Navigate to About Us">About</a>
-          <a href="#" aria-label="Navigate to Contact Us">Discover</a>
-
-          </div>
+            <button id="hamburger">☰</button>
+            <div id="navMenu" class="nav-menu">
+                <a href="#" aria-label="Navigate to Home">Home</a>
+                <a href="#" aria-label="Navigate to Directory">Directory</a>
+                <a href="#" aria-label="Navigate to About Us">About</a>
+                <a href="#" aria-label="Navigate to Contact Us">Discover</a>
+            </div>
         </nav>
-      </header>
-      <main>
+    </header>
+    <main>
         <section class="hero">
-          <div class="hero-content">
-            <h1>Chamber Directory web</h1>
-            <a href="#" class="hero-button" aria-label="Learn more about the CityConnect Business Chamber Directory">LEARN MORE</a>
-          </div>
+            <div class="hero-content">
+                <h1>Chamber Directory Web</h1>
+                <a href="#" class="hero-button" aria-label="Learn more about the CityConnect Business Chamber Directory">LEARN MORE</a>
+            </div>
         </section>
         <div class="content">
-          <h2>Home</h2>
-        <section class="events">
-            <!-- Events content here -->
-        </section>
+            <h2>Home</h2>
+        </div>
+        
         <section class="weather-section">
             <div class="weather-container">
                 <div class="weather-box events">
                     <h3>Events</h3>
-                    <ul class="events-list" id="events-list">
-                            <!-- Events will be dynamically added here -->
-                    </ul>
-                    <!-- Events content goes here -->
+                    
+                    <ul class="events-list" id="events-list"></ul>
                 </div>
                 <div class="weather-box current-weather">
                     <h3>Current Weather</h3>
-                    <div id="current-weather">
-                        <!-- Weather data will be populated here by JavaScript -->
-                    </div>
+                    <div id="current-weather"></div>
                 </div>
                 <div class="weather-box weather-forecast">
                     <h3>Weather Forecast</h3>
-                    <div id="weather-forecast">
-                        <!-- Weather forecast data will be populated here by JavaScript -->
-                    </div>
+                    <div id="weather-forecast"></div>
                 </div>
             </div>
         </section>
-        <!-- Company spotlights will be populated here by JavaScript -->
-       <!-- Business Spotlights -->
-       <section class="spotlights">
-        <h2>Member Spotlights</h2>
-        <div id="spotlight-container"></div>
-    </section>
-            </div>
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container"></div>
         </section>
-        </main>
-        
-        <footer class="footer">
-
-
+    </main>
+    <footer class="footer">
         <div class="footer-info">
-          <p>Email us at: <a href="mailto:info@cityconnect.com">info@cityconnect.com</a></p>
-          <p>123 Business Lane, Citytown, USA</p>
-          <p>Phone: 800-555-1234</p>
-          <p>Fax: 800-555-5678</p>
+            <p>Email us at: <a href="mailto:info@cityconnect.com">info@cityconnect.com</a></p>
+            <p>123 Business Lane, Citytown, USA</p>
+            <p>Phone: 800-555-1234</p>
+            <p>Fax: 800-555-5678</p>
         </div>
-
         <div class="social-media">
             <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
             <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
             <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
         </div>
         <div class="footer-info">
-          <p><span id="currentyear"></span> *** Racheal Katono *** Uganda </p>
-          <p>&copy; <span id="currentYear"></span> | Last Updated: <span id="lastModified"></span></p>
+            <p>&copy; <span id="currentYear"></span> | Last Updated: <span id="lastModified"></span></p>
         </div>
-      </footer>
-      <script src="scripts/weather.js" defer></script>
-      <script src="scripts/spotlights.js" defer></script>
-      <script src="scripts/events.js" defer></script>
+    </footer>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+    <script src="scripts/events.js" defer></script>
 </body>
 </html>
