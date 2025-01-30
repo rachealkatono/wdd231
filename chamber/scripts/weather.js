@@ -32,9 +32,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function capitalizeWords(str) {
         return str.replace(/\b\w/g, char => char.toUpperCase());
     }
+// Update all elements with class "currentyear"
+document.querySelectorAll(".currentyear").forEach(element => {
+    element.textContent = new Date().getFullYear();
+});
 
-    document.getElementById("currentYear").textContent = new Date().getFullYear();
-    document.getElementById("lastModified").textContent = document.lastModified;
+// Update the "lastModified" span
+document.getElementById("lastModified").textContent = document.lastModified;
+
     const hamburgerButton = document.getElementById("hamburger");
 const navMenu = document.getElementById("navMenu");
 
