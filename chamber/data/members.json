@@ -3,6 +3,7 @@
     "name": "Elite Tech Solutions",
     "address": "123 Innovation Blvd, Tech City, ST 54321",
     "phone": "(123) 456-7890",
+    "email": "contact@elitetech.com",
     "website": "https://elitetech.com",
     "image": "Elite-Tech.jpg",
     "membershipLevel": 3
@@ -11,6 +12,7 @@
     "name": "Green Earth Landscaping",
     "address": "456 Greenway Ave, Eco Town, ST 67890",
     "phone": "(234) 567-8901",
+    "email": "info@greenearthlandscaping.com",
     "website": "https://greenearthlandscaping.com",
     "image": "green-earth-landscaping.jpeg",
     "membershipLevel": 2
@@ -19,6 +21,7 @@
     "name": "City Corner Café",
     "address": "789 Main St, Downtown, ST 34567",
     "phone": "(345) 678-9012",
+    "email": "support@citycornercafe.com",
     "website": "https://citycornercafe.com",
     "image": "city-corner.jpeg",
     "membershipLevel": 1
@@ -27,6 +30,7 @@
     "name": "Skyline Fitness Center",
     "address": "101 Fitness Rd, Uptown, ST 56789",
     "phone": "(456) 789-0123",
+    "email": "membership@skylinefitness.com",
     "website": "https://skylinefitness.com",
     "image": "skyline-fitness.jpeg",
     "membershipLevel": 3
@@ -35,6 +39,7 @@
     "name": "Urban Boutique",
     "address": "202 Style Ln, Fashion District, ST 67891",
     "phone": "(567) 890-1234",
+    "email": "sales@urbanboutique.com",
     "website": "https://urbanboutique.com",
     "image": "urban-boutique.jpeg",
     "membershipLevel": 1
@@ -43,6 +48,7 @@
     "name": "Summit Financial Group",
     "address": "303 Wealth Ave, Midtown, ST 78901",
     "phone": "(678) 901-2345",
+    "email": "advisors@summitfinancial.com",
     "website": "https://summitfinancial.com",
     "image": "summit-financial.jpeg",
     "membershipLevel": 2
@@ -51,6 +57,7 @@
     "name": "Coastal Realty Agency",
     "address": "404 Seaview Dr, Oceanside, ST 89012",
     "phone": "(789) 012-3456",
+    "email": "info@coastalrealty.com",
     "website": "https://coastalrealty.com",
     "image": "coastal-realty.png",
     "membershipLevel": 3
