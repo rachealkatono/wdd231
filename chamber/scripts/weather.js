@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const apiKey = '4a304f6298ccb93ca85f7bf3a7af63a6';
-    const city = 'USA';
-    const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=kampala&appid=${apiKey}&units=imperial`;
-    const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=kampala&appid=${apiKey}&units=imperial`;
+    const city = 'New York'; // USA city
+    const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=NewYork&appid=${apiKey}&units=imperial`;
+    const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=NewYork&appid=${apiKey}&units=imperial`;
+    
 
     fetch(weatherUrl)
         .then(response => response.json())
