@@ -9,17 +9,15 @@ const lastModifiedElement = document.getElementById("last-modified-date");
 if (lastModifiedElement) {
     lastModifiedElement.textContent = document.lastModified;
 }
-const hamburgerButton = document.getElementById("hamburger");
-const navMenu = document.getElementById("navMenu");
+  // Hamburger menu logic
+  const hamburgerButton = document.getElementById("hamburger");
+  const navMenu = document.getElementById("navMenu");
 
-hamburgerButton.addEventListener("click", () => {
-  navMenu.classList.toggle("show");
-  if (navMenu.classList.contains("show")) {
-      navMenu.style.display = "flex";
-  } else {
-      navMenu.style.display = "none";
+  if (hamburgerButton && navMenu) {
+      hamburgerButton.addEventListener("click", () => {
+          navMenu.classList.toggle("show");
+      });
   }
-});
 
   const courses = [
     {
