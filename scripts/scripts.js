@@ -12,11 +12,15 @@ if (lastModifiedElement) {
 const hamburgerButton = document.getElementById("hamburger");
 const navMenu = document.getElementById("navMenu");
 
-if (hamburgerButton && navMenu) {
-    hamburgerButton.addEventListener("click", () => {
-        navMenu.classList.toggle("show");
-    });
-}
+hamburgerButton.addEventListener("click", () => {
+  navMenu.classList.toggle("show");
+  if (navMenu.classList.contains("show")) {
+      navMenu.style.display = "flex";
+  } else {
+      navMenu.style.display = "none";
+  }
+});
+
   const courses = [
     {
       subject: "CSE",
