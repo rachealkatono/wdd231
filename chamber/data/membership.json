@@ -1,0 +1,43 @@
+{
+    "memberships": [
+      {
+        "name": "NP Membership",
+        "id": "npDetails",
+        "fee": "No fee",
+        "benefits": [
+          "Access to special events",
+          "Training",
+          "Event discounts"
+        ]
+      },
+      {
+        "name": "Bronze Membership",
+        "id": "bronzeDetails",
+        "benefits": [
+          "Access to special events",
+          "Training",
+          "Advertising opportunities",
+          "Event discounts"
+        ]
+      },
+      {
+        "name": "Silver Membership",
+        "id": "silverDetails",
+        "benefits": [
+          "All Bronze benefits",
+          "Additional spotlight advertising on the home page",
+          "Increased event discounts"
+        ]
+      },
+      {
+        "name": "Gold Membership",
+        "id": "goldDetails",
+        "benefits": [
+          "All Silver benefits",
+          "Exclusive invitations to premium events",
+          "Maximum advertising opportunities"
+        ]
+      }
+    ]
+  }
+  

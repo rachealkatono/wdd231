@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="European Travel Destinations">
+    <meta property="og:type" content="website">
+    <meta property="og:image:alt" content="CityConnect Business Chamber Logo">
+    <meta property="og:image" content="https://rachealkatono.github.io/wdd231/chamber/images/chamber.jpeg">
+    <meta property="og:url" content="https://rachealkatono.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Discover local businesses and foster collaboration with CityConnect Chamber of Commerce.">
+    <meta name="facebook:card" content="summary_large_image">
+    <meta name="description" content="Rachealkatono, BYU-Idaho WDD 231 course home page">
+    <meta name="author" content="Rachealkatono">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/join.css">
+    <script src="scripts/join.js" defer></script>
+    <title>Join-Commerce Directory page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/city.png" alt="CityConnect Business Chamber Logo">
+            <h1>CityConnect Business Chamber</h1>
+        </div>
+        <nav>
+            <button id="hamburger">☰</button>
+            <div id="navMenu" class="nav-menu">
+                <a href="index.html" aria-label="Navigate to Home">Home</a>
+                <a href="directory.html" aria-label="Navigate to Directory">Directory</a>
+                <a href="Join.html" aria-label="Navigate to About Us">Join</a>
+                <a href="Discover.html" aria-label="Navigate to Contact Us">Discover</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Chamber Directory Web</h2>
+                <a href="#" class="hero-button" aria-label="Learn more about the CityConnect Business Chamber Directory">LEARN MORE</a>
+            </div>
+        </section>
+        <main>
+            <section class="form-container">
+                <h2>Membership Application Form</h2>
+                <form id="membershipForm" action="thankyou.html" method="get">
+                    <label>First Name:
+                        <input type="text" name="first_name" title="First Name" autocomplete="given-name" required>
+                    </label>
+                    <label>Last Name:
+                        <input type="text" name="last_name" title="Last Name" autocomplete="family-name" required>
+                    </label>
+                    <label>Title:
+                        <input type="text" name="organization_title" title="Organization Title" autocomplete="organization-title" pattern="[A-Za-z\-\s]{7,}" required>
+                    </label>
+                    <label>Email:
+                        <input type="email" name="email" title="Email" autocomplete="email" placeholder="example@email.com" required>
+                    </label>
+                    <label>Cell Phone:
+                        <input type="tel" name="mobile" title="Mobile Phone" autocomplete="tel" required>
+                    </label>
+                    <label>Organization:
+                        <input type="text" name="organization" title="Organization Name" autocomplete="organization" required>
+                    </label>
+                    <label>Membership Level:
+                        <select id="membershipLevel" name="membership_level" required>
+                            <option value="NP">Non-Profit Membership</option>
+                            <option value="Bronze">Bronze Membership</option>
+                            <option value="Silver">Silver Membership</option>
+                            <option value="Gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    
+        
+                    <label>Organization Description:
+                        <textarea name="organization_description" title="Organization Description"></textarea>
+                    </label>
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <input type="submit" value="Apply for Membership">
+                    
+                </form>
+            </div>
+            <div class="membership-container">
+                <h2>Membership Levels</h2>
+                <div class="card">Non Profit Membership Level <br><button onclick="openModal('npModal')">Learn More</button></div>
+                <div class="card">Bronze Membership Level <br><button onclick="openModal('bronzeModal')">Learn More</button></div>
+                <div class="card">Silver Membership Level <br><button onclick="openModal('silverModal')">Learn More</button></div>
+                <div class="card">Gold Membership Level <br><button onclick="openModal('goldModal')">Learn More</button></div>
+       
+
+            </section>
+        <footer class="footer">
+            <div class="footer-info">
+                <p>Email us at: <a href="mailto:info@cityconnect.com">info@cityconnect.com</a></p>
+                <p>123 Business Lane, Citytown, USA</p>
+                <p>Phone: 800-555-1234</p>
+                <p>Fax: 800-555-5678</p>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
+                <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
+            </div>
+            <div class="footer-info">
+              <p>WDD 231 Class Project</p>
+              <p>*** Racheal Katono *** Uganda</p>
+              <p>&copy; <span class="currentyear"></span> CityConnect Business Chamber</p>
+              <p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
+          </div>
+         
+        </footer>
+
+        
+      
+    </body>
+    </html>
+    
