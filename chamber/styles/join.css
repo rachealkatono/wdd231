@@ -86,37 +86,42 @@ a:hover {
     background-color: var(--secondary-color);
 }
 
-.form-container {
+/* Parent container for form and membership levels */
+.membership-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* Style both sections */
+.form-container, .membership-container {
+    flex: 1;
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px gray;
-    width: 50%;
-    max-width: 900px;
-    margin: 20px auto;
-    gap: 30px;
+    min-width: 300px; /* Ensures they don't shrink too much */
 }
 
-/* Both sections take equal width on large screens */
-.form-container, .membership-container {
-    flex: 1;
-}
-
-/* Responsive for smaller screens */
+/* Ensure full width stacking on small screens */
 @media (max-width: 768px) {
-    .container {
+    .membership-section {
         flex-direction: column;
         align-items: center;
     }
 
-    .form-container,
-    .membership-container {
-        max-width: 100%; /* Full width on smaller screens */
+    .form-container, .membership-container {
+        width: 100%;
     }
 }
 
+
+/* Form elements */
 label {
     display: block;
     margin-top: 10px;
@@ -136,17 +141,10 @@ input[type="submit"] {
     border: none;
     padding: 10px;
     cursor: pointer;
+    width: 100%;
 }
 
-.membership-container {
-    flex: 1;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
+/* Membership Cards */
 .card {
     background: #ccc;
     padding: 20px;
@@ -173,6 +171,7 @@ h2 {
 .card button:hover {
     background: #ddd;
 }
+
 
 .modal {
     display: none;

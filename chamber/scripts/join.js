@@ -82,11 +82,21 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById(id).style.display = 'none';
         }
         
-    
+     // Update all elements with class "currentyear"
+     document.querySelectorAll(".currentyear").forEach(element => {
+        element.textContent = new Date().getFullYear();
+    });
 
-    // Display current year in the footer
-    document.getElementById('year').textContent = new Date().getFullYear();
+    // Update the "lastModified" span
+    document.getElementById("lastModified").textContent = document.lastModified;
 
-    // Display last modified date in footer
-    document.getElementById('lastModified').textContent = document.lastModified;
+    // Hamburger menu logic
+    const hamburgerButton = document.getElementById("hamburger");
+    const navMenu = document.getElementById("navMenu");
+
+    if (hamburgerButton && navMenu) {
+        hamburgerButton.addEventListener("click", () => {
+            navMenu.classList.toggle("show");
+        });
+    }
 });

@@ -39,7 +39,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+ // Hamburger menu logic
+ const hamburgerButton = document.getElementById("hamburger");
+ const navMenu = document.getElementById("navMenu");
 
+ if (hamburgerButton && navMenu) {
+     hamburgerButton.addEventListener("click", () => {
+         navMenu.classList.toggle("show");
+     });
+ }
 
 // Set footer info
 document.getElementById("currentYear").textContent = new Date().getFullYear();
