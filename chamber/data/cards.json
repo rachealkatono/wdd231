@@ -1,0 +1,69 @@
+{
+    "cards": [
+      {
+        "title": "City Park",
+        "image": "images/park.webp",
+        "alt": "City Park",
+        "address": "Main Street, CityTown",
+        "description": "A beautiful park with scenic views and walking trails.",
+        "button": "Learn More"
+      },
+      {
+        "title": "Historical Museum",
+        "image": "images/museum.webp",
+        "alt": "Historical Museum",
+        "address": "456 Heritage Rd, CityTown",
+        "description": "Explore the rich history and artifacts of our city.",
+        "button": "Learn More"
+      },
+      {
+        "title": "Downtown Market",
+        "image": "images/market.webp",
+        "alt": "Downtown Market",
+        "address": "789 Market St, CityTown",
+        "description": "A bustling hub for fresh produce and handmade goods.",
+        "button": "Learn More"
+      },
+      {
+        "title": "Botanical Garden",
+        "image": "images/garden.webp",
+        "alt": "Botanical Garden",
+        "address": "101 Greenway Blvd, CityTown",
+        "description": "Relax among exotic plants and beautifully maintained gardens.",
+        "button": "Learn More"
+      },
+      {
+        "title": "City Library",
+        "image": "images/library.webp",
+        "alt": "City Library",
+        "address": "202 Knowledge Ave, CityTown",
+        "description": "A quiet place for reading, research, and community events.",
+        "button": "Learn More"
+      },
+      {
+        "title": "Sports Complex",
+        "image": "images/sports-complex.webp",
+        "alt": "Sports Complex",
+        "address": "303 Athletic Dr, CityTown",
+        "description": "Facilities for various sports and fitness activities.",
+        "button": "Learn More"
+      },
+      {
+        "title": "Art Gallery",
+        "image": "images/art-gallery.webp",
+        "alt": "Art Gallery",
+        "address": "404 Creative Ln, CityTown",
+        "description": "Showcasing works from local and international artists.",
+        "button": "Learn More"
+      },
+      {
+        "title": "Riverside Walk",
+        "image": "images/riverside-walk.webp",
+        "alt": "Riverside Walk",
+        "address": "505 Riverbank Rd, CityTown",
+        "description": "A scenic path along the river with beautiful sunset views.",
+        "button": "Learn More"
+      }
+    ]
+  }
+  
