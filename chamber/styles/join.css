@@ -284,7 +284,7 @@ textarea {
 
 .back-btn {
     display: inline-block;
-    background-color: #4a90e2;
+    background-color: #032b54;
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 4px;
@@ -293,7 +293,7 @@ textarea {
 }
 
 .back-btn:hover {
-    background-color: #357abd;
+    background-color: #032b54;
 }
 
 /* Responsive Design */

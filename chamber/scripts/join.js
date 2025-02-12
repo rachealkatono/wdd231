@@ -1,9 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Set timestamp on form load
-    const timestampInput = document.getElementById('timestamp');
-    if (timestampInput) {
-        timestampInput.value = new Date().toISOString();
-    }
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("timestamp").value = new Date().toISOString();
+});
 
     // Form submission handler
     const form = document.getElementById('membershipForm');
@@ -88,4 +85,4 @@ document.addEventListener('DOMContentLoaded', () => {
             navMenu.classList.toggle("show");
         });
     }
-});
+
