@@ -1,8 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("timestamp").value = new Date().toISOString();
-});
-
-    // Form submission handler
+// Form submission handler
     const form = document.getElementById('membershipForm');
     if (form) {
         form.addEventListener('submit', (e) => {
