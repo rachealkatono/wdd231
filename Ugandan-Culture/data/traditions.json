@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Baganda Traditional Attire",
+        "image": "images/baganda-attire.jpg",
+        "description": "The Baganda wear the Gomesi for women and the Kanzu for men, reflecting elegance and cultural pride."
+    },
+    {
+        "title": "Karamojong Warrior Dress",
+        "image": "images/karamojong-attire.jpeg",
+        "description": "The Karamojong are known for their bold, beaded jewelry and shukas, symbolizing strength and heritage."
+    },
+    {
+        "title": "Ankole Regal Fashion",
+        "image": "images/ankole-attire.jpg",
+        "description": "Ankole attire features elegant wraps and cowhide accessories, reflecting their deep connection to cattle."
+    },
+    {
+        "title": "Basoga Cultural Dress",
+        "image": "images/basoga-attire.jpeg",
+        "description": "The Basoga dress in colorful Kikoyi and Gomesi, often adorned with intricate embroidery and patterns."
+    },
+    {
+        "title": "Acholi Traditional Wear",
+        "image": "images/acholi-attire.webp",
+        "description": "Acholi men wear tunics, while women adorn vibrant dresses with matching headscarves for ceremonies and dances."
+    },
+    {
+        "title": "Teso Traditional Fashion",
+        "image": "images/teso-attire.jpg",
+        "description": "The Iteso wear traditional 'Atap' dresses for women and wrapped sheets for men, often paired with beaded accessories."
+    }
+]

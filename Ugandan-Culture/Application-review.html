@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="European Travel Destinations">
+    <meta property="og:type" content="website">
+    <meta property="og:image:alt" content="CityConnect Business Chamber Logo">
+    <meta property="og:image" content="https://rachealkatono.github.io/wdd231/chamber/images/chamber.jpeg">
+    <meta property="og:url" content="https://rachealkatono.github.io/wdd231/Ugandan-Culture/index.html">
+    <meta property="og:description" content="Discover the rich cultural heritage of Uganda through its food, music, and traditions.">
+    <meta name="facebook:card" content="summary_large_image">
+    <meta name="description" content="Rachealkatono, BYU-Idaho WDD 231 course home page">
+    <meta name="author" content="Rachealkatono">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Welcome to Ugandan Culture</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/hero-image.jpg" alt="Ugandan Culture">
+           
+        </div>
+        <nav>
+            <button id="hamburger">☰</button>
+            <div id="navMenu" class="nav-menu">
+                <a href="index.html" aria-label="Navigate to Home">Home</a>
+                <a href="traditions.html" aria-label="Navigate to Directory">Traditional</a>
+                <a href="music-dance.html" aria-label="Navigate to About Us">Music and Dance</a>
+                <a href="heritage-tourism.html" aria-label="Navigate to About Us">Heritage and Tourism</a>
+                <a href="contact.html" aria-label="Navigate to Contact Us">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Thankyou-CityConnect Business Chamber</h1>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Chamber Directory Web</h2>
+                <a href="#" class="hero-button" aria-label="Learn more about the CityConnect Business Chamber Directory">LEARN MORE</a>
+            </div>
+        </section>
+        <div class="container thank-you">
+            <h1>Thank you for submitting your application:</h1>
+            <div class="submission-details">
+                <h2>Application Details:</h2>
+                <div class="detail-item">
+                    <strong>First Name:</strong> <span id="firstName"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Last Name:</strong> <span id="lastName"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Email:</strong> <span id="email"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Phone:</strong> <span id="phone"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Organization:</strong> <span id="organization"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Submission Time:</strong> <span id="timestamp"></span>
+                </div>
+            </div>
+            <a href="index.html" class="back-btn">Return to Home</a>
+        </div>
+    </main>    
+    <footer class="footer">
+        <div class="footer-info">
+            <p>Email us at: <a href="mailto:info@cityconnect.com">info@cityconnect.com</a></p>
+            <p>123 Business Lane, Citytown, USA</p>
+            <p>Phone: 800-555-1234</p>
+            <p>Fax: 800-555-5678</p>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
+            <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
+        </div>
+        <div class="footer-info">
+          <p>WDD 231 Class Project</p>
+          <p>*** Racheal Katono *** Uganda</p>
+          <p>&copy; <span class="currentyear"></span> CityConnect Business Chamber</p>
+          <p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
+      </div>
+      
+    </footer>
+    <script src="scripts/join.js" defer></script>
+</body>
+</html>
+
+
