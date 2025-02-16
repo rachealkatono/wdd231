@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="European Travel Destinations">
     <meta property="og:type" content="website">
-    <meta property="og:image:alt" content="CityConnect Business Chamber Logo">
-    <meta property="og:image" content="https://rachealkatono.github.io/wdd231/chamber/images/chamber.jpeg">
+    <meta property="og:image:alt" content="ugandan-culture Logo">
+    <meta property="og:image" content="https://rachealkatono.github.io/wdd231/ugandan-culture/images/ugandan-culture.png">
     <meta property="og:url" content="https://rachealkatono.github.io/wdd231/Ugandan-Culture/index.html">
     <meta property="og:description" content="Discover the rich cultural heritage of Uganda through its food, music, and traditions.">
     <meta name="facebook:card" content="summary_large_image">
-    <meta name="description" content="Rachealkatono, Individual Website">
+    <meta name="description" content="Music and dance are at the heart of Ugandan culture, reflecting its history and identity. From the lively beats of Bakisimba to the soul-stirring melodies of Kadongo Kamu, experience the energy and joy that music and dance bring to Ugandan communities.">
     <meta name="author" content="Rachealkatono">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/music.css">
     <title>Ugandan Music ,Dance and Art</title>
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <img src="images/hero-image.jpg" alt="Ugandan Culture">
+            <img src="images/ugandan-culture.png" alt="Ugandan Culture" loading="lazy">
            
         </div>
         <nav>
@@ -31,7 +31,6 @@
                 <a href="index.html" aria-label="Navigate to Home">Home</a>
                 <a href="traditions.html" aria-label="Navigate to Directory">Traditional</a>
                 <a href="music-dance.html" aria-label="Navigate to About Us">Music and Dance</a>
-                <a href="heritage-tourism.html" aria-label="Navigate to About Us">Heritage and Tourism</a>
                 <a href="contact.html" aria-label="Navigate to Contact Us">Contact Us</a>
             </div>
         </nav>
@@ -41,38 +40,68 @@
         <section class="hero">
             <div class="hero-content">
                 <h2>The Rhythm of Uganda</h2>
-                <p>Feel the heartbeat of Uganda through its captivating music and energetic dances.</p>
+                <p>Music and dance are at the heart of Ugandan culture, reflecting its history and identity. From the lively beats of Bakisimba to the soul-stirring melodies of Kadongo Kamu, experience the energy and joy that music and dance bring to Ugandan communities.</p>
             </div>
         </section>
-        
-        <!-- Section with grid container -->
-        <section class="grid-container" id="cards-container">
-            <h2>Business Directory</h2>
-            <!-- Your directory content goes here -->
-            <div id="visitor-message"></div>
 
+        <section class="traditional-instruments">
+            <h2>Traditional Instruments</h2>
+            <div id="instruments-container" class="items-container"></div>
         </section>
+
+        <section class="traditional-dances">
+            <h2>Popular Traditional Dances</h2>
+            <div id="dances-container" class="items-container"></div>
+        </section>
+
+        <section class="modern-influence">
+            <h2>Influence on Modern Ugandan Music</h2>
+            <p>Uganda’s traditional sounds have influenced genres such as Afrobeat, Kadongo Kamu, and gospel music.</p>
+            <p>Modern Ugandan music is a vibrant blend of traditional rhythms and contemporary influences, reflecting the country's diverse cultural heritage. Rooted in folk melodies and percussion-heavy beats, Uganda's music scene has evolved to incorporate various global genres while maintaining its unique identity.</p>
+
+                <p>🔥   Afrobeat & Dancehall Influence: Many Ugandan artists, such as Eddy Kenzo and Sheebah Karungi, fuse Afrobeat and dancehall with indigenous sounds, creating energetic and danceable music that resonates across Africa.</p>
+                <p>🔥   Kadongo Kamu: A genre deeply tied to storytelling, Kadongo Kamu remains a significant part of Uganda’s music scene. Artists like Herman Basudde and Paul Kafeero popularized this style, blending poetic lyrics with acoustic instrumentation.</p>
+                <p>🔥   Gospel Music: Inspired by Christian worship, Ugandan gospel blends traditional harmonies with modern beats, featuring artists like Judith Babirye and Levixone, who deliver uplifting and spiritually rich songs.</p>
+                <p>🔥   Hip-Hop & LugaFlow: Modern Ugandan hip-hop, known as "LugaFlow," combines Western rap techniques with indigenous languages like Luganda, creating a powerful medium for social commentary.</p>
+                <p>🔥   Afropop & Fusion Sounds: Ugandan music also embraces Afropop, fusing R&B, reggae, and Afrobeat into a unique and global sound that continues to gain international recognition.</p>
+                <p>🔥   With a growing music industry and digital platforms promoting Ugandan talent, the nation’s artists are making waves across Africa and beyond, proving that traditional roots and modern innovation can coexist harmoniously. 🎶</p>
+        </section>
+
     </main>
     
-    <footer class="footer">
-        <div class="footer-info">
-            <p>Email: <a href="mailto:info@ugandaculture.com">info@ugandaculture.com</a></p>
-            <p>Kampala, Uganda</p>
-            <p>Phone: +256-762665702</p>
-            <p>Fax: +256-758522388</p>
-        </div>
-        <div class="footer-info">
-            <p>&copy; <span class="currentyear"></span> Ugandan Culture | Designed by Racheal Katono</p>
-            <p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
-        </div>
-        <div class="social-media">
-            <p>Contact us through our social-media</p>
-            <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
-            <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
-            <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
-        </div>
-    </footer>
+   <!-- Footer -->
+   <footer class="footer">
+    <div class="footer-info">
+        <p>Email: <a href="mailto:info@ugandaculture.com">info@ugandaculture.com</a></p>
+        <p>Kampala, Uganda</p>
+        <p>Phone: +256-762665702</p>
+        <p>Fax: +256-758522388</p>
+    </div>
 
-    <script src="scripts/discover.js" defer></script>
+    <div class="footer-info">
+        <h3>Designed by Racheal Katono</h3>
+        <p>Ugandan Culture</p>
+        <p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
+    </div>
+
+    <div class="social-media">
+        <p>Our social media</p>
+        <a href="#"><img src="images/twitter.webp" alt="Twitter" loading="lazy"></a>
+        <a href="#"><img src="images/instagram.webp" alt="Instagram" loading="lazy"></a>
+        <a href="#"><img src="images/facebook.webp" alt="Facebook" loading="lazy"></a>
+    </div>
+
+    <div class="footer-links">
+        <h3>IMPORTANT LINKS</h3>
+        <ul>
+            <li><a href="https://utb.go.ug" target="_blank">Uganda Tourism Board (UTB)</a></li>
+            <li><a href="https://ugandawildlife.org" target="_blank">Uganda Wildlife Authority (UWA)</a></li>
+            <li><a href="https://immigration.go.ug" target="_blank">Immigration (Visa)</a></li>
+            <li><a href="https://exploreuganda.com" target="_blank">Explore Uganda</a></li>
+            <li><a href="https://utb.go.ug/ucb" target="_blank">The Uganda Convention Bureau (UCB)</a></li>
+        </ul>
+    </div>
+</footer>
+    <script src="scripts/music.js" defer></script>
 </body>
 </html>

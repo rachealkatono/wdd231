@@ -5,33 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="European Travel Destinations">
     <meta property="og:type" content="website">
-    <meta property="og:image:alt" content="CityConnect Business Chamber Logo">
-    <meta property="og:image" content="https://rachealkatono.github.io/wdd231/chamber/images/chamber.jpeg">
+    <meta property="og:image:alt" content="Ugandan-Culture Logo">
+    <meta property="og:image" content="https://rachealkatono.github.io/wdd231/ugandan-culture/images/ugandan-culture.png">
     <meta property="og:url" content="https://rachealkatono.github.io/wdd231/Ugandan-Culture/index.html">
     <meta property="og:description" content="Discover the rich cultural heritage of Uganda through its food, music, and traditions.">
     <meta name="facebook:card" content="summary_large_image">
-    <meta name="description" content="Rachealkatono, Individual Website">
+    <meta name="description" content="Have questions or want to learn more? Get in touch with us to discover Uganda’s fascinating cultural landscape. Whether you're looking for guided experiences, cultural insights, or local recommendations, we’re here to help!">
     <meta name="author" content="Rachealkatono">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <title>Contact Us📞</title>
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <img src="images/hero-image.jpg" alt="Ugandan Culture">
+            <img src="images/ugandan-culture.png" alt="Ugandan Culture" loading="lazy">
            
         </div>
         <nav>
             <button id="hamburger">☰</button>
             <div id="navMenu" class="nav-menu">
                 <a href="index.html" aria-label="Navigate to Home">Home</a>
-                <a href="traditions.html" aria-label="Navigate to Directory">Traditional</a>
-                <a href="music-dance.html" aria-label="Navigate to About Us">Music and Dance</a>
-                <a href="heritage-tourism.html" aria-label="Navigate to About Us">Heritage and Tourism</a>
+                <a href="traditions.html" aria-label="Navigate to Traditions">Traditions</a>
+                <a href="music-dance.html" aria-label="Navigate to music and dance">Music and Dance</a>
                 <a href="contact.html" aria-label="Navigate to Contact Us">Contact Us</a>
             </div>
         </nav>
@@ -43,16 +42,16 @@
         <section class="hero">
             <div class="hero-content">
                 <h2>Connect With Us & Explore Uganda</h2>
-                <p>Get in touch to learn more about Uganda’s rich cultural heritage.</p>
+                <p>Have questions or want to learn more? Get in touch with us to discover Uganda’s fascinating cultural landscape. Whether you're looking for guided experiences, cultural insights, or local recommendations, we’re here to help!</p>
                
             </div>
         </section>
 
-        <!-- Membership Form Section -->
             <div class="container">
                 <div class="form-section">
-                    <h2>Membership Application Form</h2>
-                    <form id="membershipForm" action="Inquiry.html" method="get">
+                    <h2>Have any inquiries? We are here for you.</h2>
+                    <p>A way for visitors to get in touch or learn more about Ugandan culture.</p>
+                    <form action="Submission-review.html" method="GET">
                         <div class="form-group">
                             <label for="firstName">First Name
                                 <input type="text" id="firstName" name="firstName" required 
@@ -70,15 +69,6 @@
                         </div>
         
                         <div class="form-group">
-                            <label for="title">Position Title
-                                <input type="text" id="title" name="title" 
-                                       title="Please enter your position title (minimum 7 characters, letters, hyphens, and spaces only)" 
-                                       autocomplete="organization-title"
-                                       pattern="[A-Za-z\- ]{7,}">
-                            </label>
-                        </div>
-        
-                        <div class="form-group">
                             <label for="email">Email
                                 <input type="email" id="email" name="email" required 
                                        title="Please enter your email address" 
@@ -88,42 +78,150 @@
                         </div>
         
                         <div class="form-group">
-                            <label for="phone">Cell Phone
+                            <label for="phone">Phone
                                 <input type="tel" id="phone" name="phone" required 
                                        title="Please enter your mobile phone number" 
                                        autocomplete="tel">
                             </label>
                         </div>
-        
                         <div class="form-group">
-                            <label for="organization">Organization Name
-                                <input type="text" id="organization" name="organization" required 
-                                       title="Please enter your organization name" 
-                                       autocomplete="organization">
+                            <label for="membershipLevel">Membership Level
+                                <select id="membershipLevel" name="membershipLevel" required>
+                                    <option value="">Select a membership level</option>
+                                    <option value="np">NP Membership (Non-Profit, No Fee)</option>
+                                    <option value="bronze">Bronze Membership</option>
+                                    <option value="silver">Silver Membership</option>
+                                    <option value="gold">Gold Membership</option>
+                                </select>
                             </label>
                         </div>
         
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-info">
-            <p>Email: <a href="mailto:info@ugandaculture.com">info@ugandaculture.com</a></p>
-            <p>Kampala, Uganda</p>
-            <p>Phone: +256-762665702</p>
-            <p>Fax: +256-758522388</p>
-        </div>
-        <div class="footer-info">
-            <p>&copy; <span class="currentyear"></span> Ugandan Culture | Designed by Racheal Katono</p>
-            <p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
-        </div>
-        <div class="social-media">
-            <p>Contact us through our social-media</p>
-            <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
-            <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
-            <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
-        </div>
-    </footer>
+                        <div class="form-group">
+                            <label for="description">Message
+                                <textarea id="description" name="message" 
+                                        title="Please write your message here"></textarea>
+                            </label>
+                        </div>
+                            <button type="submit" class="submit-btn">Submit </button>
+                        </form>
+                        </div>
+                        <div class="levels-section"> 
+                            <h2>Uganda Cultural Membership Levels</h2>
+                            <p>Join us in preserving and promoting Uganda’s rich cultural heritage by becoming a member.</p>
+                            <div class="membership-levels">
+                                <div class="level-card" data-modal="npModal">
+                                    <h3>Community Member</h3>
+                                    <button class="learn-more-btn">Learn More</button>
+                                </div>
+                        
+                                <div class="level-card" data-modal="bronzeModal">
+                                    <h3>Bronze Cultural Supporter</h3>
+                                    <button class="learn-more-btn">Learn More</button>
+                                </div>
+                        
+                                <div class="level-card" data-modal="silverModal">
+                                    <h3>Silver Heritage Patron</h3>
+                                    <button class="learn-more-btn">Learn More</button>
+                                </div>
+                        
+                                <div class="level-card" data-modal="goldModal">
+                                    <h3>Gold Cultural Ambassador</h3>
+                                    <button class="learn-more-btn">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Modals -->
+                        <div id="npModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2>Community Member Benefits</h2>
+                                <ul>
+                                    <li>Free access to cultural newsletters and updates</li>
+                                    <li>Invitations to local cultural events</li>
+                                    <li>Participation in community discussions</li>
+                                    <li>Opportunities to volunteer in cultural preservation</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div id="bronzeModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2>Bronze Cultural Supporter Benefits</h2>
+                                <ul>
+                                    <li>All Community Member benefits</li>
+                                    <li>Discounts on traditional music and dance classes</li>
+                                    <li>Exclusive behind-the-scenes cultural stories</li>
+                                    <li>Early access to event tickets</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div id="silverModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2>Silver Heritage Patron Benefits</h2>
+                                <ul>
+                                    <li>All Bronze benefits</li>
+                                    <li>VIP invitations to cultural exhibitions</li>
+                                    <li>Feature in our 'Culture Spotlight' series</li>
+                                    <li>30% discount on cultural merchandise</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div id="goldModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2>Gold Cultural Ambassador Benefits</h2>
+                                <ul>
+                                    <li>All Silver benefits</li>
+                                    <li>Personalized guided cultural tours</li>
+                                    <li>Official recognition as a Ugandan cultural ambassador</li>
+                                    <li>Complimentary access to all cultural workshops</li>
+                                    <li>Direct networking with cultural leaders</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        </main>
+   <!-- Footer -->
+   <footer class="footer">
+    <div class="footer-info">
+        <p>Email: <a href="mailto:info@ugandaculture.com">info@ugandaculture.com</a></p>
+        <p>Kampala, Uganda</p>
+        <p>Phone: +256-762665702</p>
+        <p>Fax: +256-758522388</p>
+    </div>
 
-    <script src="scripts/join.js" defer></script>
+    <div class="footer-info">
+        <h3>Designed by Racheal Katono</h3>
+        <p>Ugandan Culture</p>
+        <p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
+    </div>
+
+    <div class="social-media">
+        <p>Our social media</p>
+        <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
+        <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
+        <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
+    </div>
+
+    <div class="footer-links">
+        <h3>IMPORTANT LINKS</h3>
+        <ul>
+            <li><a href="https://utb.go.ug" target="_blank">Uganda Tourism Board (UTB)</a></li>
+            <li><a href="https://ugandawildlife.org" target="_blank">Uganda Wildlife Authority (UWA)</a></li>
+            <li><a href="https://immigration.go.ug" target="_blank">Immigration (Visa)</a></li>
+            <li><a href="https://exploreuganda.com" target="_blank">Explore Uganda</a></li>
+            <li><a href="https://utb.go.ug/ucb" target="_blank">The Uganda Convention Bureau (UCB)</a></li>
+        </ul>
+    </div>
+</footer>
+    
+
+    <script src="scripts/contact.js" defer></script>
 
 </body>
 </html>

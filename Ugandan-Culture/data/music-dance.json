@@ -1,0 +1,81 @@
+{
+    "instruments": [
+        {
+            "name": "Adungu",
+            "description": "A bow harp popular among the Alur people, used in storytelling and traditional ceremonies.",
+            "image": "images/Adungu.webp"
+        },
+        {
+            "name": "Engalabi",
+            "description": "A long drum used in Kiganda music, known for its deep resonant sound.",
+            "image": "images/Engalabi.jpeg"
+        },
+        {
+            "name": "Amadinda",
+            "description": "A wooden xylophone played in Buganda, often used in royal gatherings.",
+            "image": "images/amadinda.webp"
+        },
+        {
+            "name": "Endingidi",
+            "description": "A one-stringed fiddle commonly played among the Baganda and Banyankole.",
+            "image": "images/Endingidi.png"
+        },
+        {
+            "name": "Ensaasi",
+            "description": "Shakers made from gourds, filled with seeds or beads, used to add rhythm to Ugandan music.",
+            "image": "images/ensaasi.jpeg"
+        },
+        {
+            "name": "Entongoli",
+            "description": "A lyre instrument played by the Basoga, often accompanying traditional folk songs.",
+            "image": "images/entongoli.jpg"
+        },
+        {
+            "name": "Akogo",
+            "description": "A thumb piano used by the Iteso and other Ugandan communities for melodies and harmonies.",
+            "image": "images/Akogo.webp"
+        }
+    ],
+    "dances": [
+        {
+            "name": "Bwola Dance",
+            "description": "A royal dance of the Acholi people performed at important cultural ceremonies.",
+            "image": "images/acholi-dance.webp"
+        },
+        {
+            "name": "Kadodi Dance",
+            "description": "A high-energy initiation dance of the Bagisu, often performed during male circumcision ceremonies.",
+            "image": "images/bagisu-dance.webp"
+        },
+        {
+            "name": "Kiganda Dance",
+            "description": "A popular dance among the Baganda, characterized by intricate footwork and graceful movements.",
+            "image": "images/maganda-dance.jpg"
+        },
+        {
+            "name": "Runyege Dance",
+            "description": "A courtship dance of the Banyoro and Batooro, performed with ankle bells for rhythmic effect.",
+            "image": "images/Runyege-dance.jpeg"
+        },
+        {
+            "name": "Ekizino Dance",
+            "description": "A cultural dance from Bakiga, involving synchronized foot movements and energetic jumps.",
+            "image": "images/Ekizino-dance.webp"
+        },
+        {
+            "name": "Ekitaguriro Dance",
+            "description": "A traditional dance of the Banyankole, often performed during cattle-keeping ceremonies.",
+            "image": "images/Ekitaguriro.webp"
+        },
+        {
+            "name": "Ndere Troupe Dance",
+            "description": "A fusion of different Ugandan traditional dances, performed by the famous Ndere Troupe.",
+            "image": "images/Ndere-dance.jpg"
+        },
+        {
+           "name": "Ankole Dance",
+            "description": "A cultural dance of the Banyankole, showcasing graceful movements inspired by cattle herding traditions.",
+            "image": "images/ankole-dance.webp"
+        }
+    ]
+}

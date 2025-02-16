@@ -1,7 +1,7 @@
 [
     {
         "title": "Baganda Traditional Attire",
-        "image": "images/baganda-attire.jpg",
+        "image": "images/baganda-attire.webp",
         "description": "The Baganda wear the Gomesi for women and the Kanzu for men, reflecting elegance and cultural pride."
     },
     {
@@ -11,12 +11,12 @@
     },
     {
         "title": "Ankole Regal Fashion",
-        "image": "images/ankole-attire.jpg",
+        "image": "images/ankole-attire.webp",
         "description": "Ankole attire features elegant wraps and cowhide accessories, reflecting their deep connection to cattle."
     },
     {
         "title": "Basoga Cultural Dress",
-        "image": "images/basoga-attire.jpeg",
+        "image": "images/basoga-attire.webp",
         "description": "The Basoga dress in colorful Kikoyi and Gomesi, often adorned with intricate embroidery and patterns."
     },
     {

@@ -10,7 +10,7 @@
 
 /* Global Styles */
 body, html {
-    font-family: var(--font-family);
+
     margin: 0;
     padding: 0;
     background: var(--background-color);
@@ -50,7 +50,7 @@ a:hover {
 .hero {
     position: relative;
     height: 350px;
-    background: url("../images/Ekitaguriro.webp") center/cover;
+    background: url("../images/fashion.jpg") center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,16 +69,15 @@ a:hover {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-
-.hero-button {
+.cta-button {
     padding: 10px 20px;
     background-color: #86b8ea;
     color: rgb(2, 0, 0);
     border: none;
     cursor: pointer;
     font-weight: bold;
-    transition: var(--transition);
 }
+
 
 .hero-button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -100,40 +99,6 @@ a:hover {
     margin-bottom: 15px;
     text-align: left; 
     font-family: 'Arial', sans-serif; 
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-header {
-    background: #006400;
-    padding: 15px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.hero {
-    background: url('../images/culture.jpeg') no-repeat center/cover;
-    color: white;
-    padding: 50px;
 }
 
 button {
@@ -177,7 +142,7 @@ button {
     margin: 15px 0;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #7a5026;
+    color: #2c1703;
 }
 
 .preview-box p {
@@ -190,7 +155,7 @@ button {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 15px;
-    background-color: #7a5026;
+    background-color: #2c1703;
     color: #fff;
     border-radius: 6px;
     text-decoration: none;
@@ -199,7 +164,7 @@ button {
 }
 
 .preview-box a:hover {
-    background-color: #5a3b1c;
+    background-color: #2c1703;
 }
 
 
@@ -234,7 +199,11 @@ button {
     max-width: 90%;
     text-align: center;
 }
-
+.featured h4 {
+    font-size: 34px; 
+    margin: 20px 0; 
+    color: #333; 
+}
 
 .content-box {
     padding: 20px;

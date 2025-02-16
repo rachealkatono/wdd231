@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             id: "empango",
             title: "Empango Royal Anniversary",
-            image: "images/Bunyoro-Emapago.jpg",
+            image: "images/Bunyoro-Emapago.webp",
             description: "The Bunyoro Kingdom’s grand celebration marking the Omukama’s coronation anniversary.",
             
         },
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             id: "nyege-nyege",
             title: "Nyege Nyege Festival",
-            image: "images/Runyege.jpeg",
+            image: "images/Runyege-dance.jpeg",
             description: "A vibrant cultural and musical festival celebrating Ugandan and African heritage.",
             
         },
@@ -113,4 +113,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function exploreMore() {
     alert("Explore more about Uganda’s beautiful culture!");
+}
+// Update all elements with class "currentyear"
+document.querySelectorAll(".currentyear").forEach(element => {
+    element.textContent = new Date().getFullYear();
+});
+
+// Update the "lastModified" span
+document.getElementById("lastModified").textContent = document.lastModified;
+
+// Hamburger menu logic
+const hamburgerButton = document.getElementById("hamburger");
+const navMenu = document.getElementById("navMenu");
+
+if (hamburgerButton && navMenu) {
+    hamburgerButton.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+    });
 }
