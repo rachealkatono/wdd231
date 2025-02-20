@@ -65,15 +65,10 @@ document.addEventListener("DOMContentLoaded", function() {
     observer.observe(featuredImage);
 });
 
-
-    observer.observe(featuredImage);
-    setInterval(updateFeature, 5000); // Change image and caption every 5 seconds
-
-
 function exploreMore() {
     alert("Explore more about Uganda’s beautiful culture!");
 }
-// Update all elements with class "currentyear"
+ // Update all elements with class "currentyear"
 document.querySelectorAll(".currentyear").forEach(element => {
     element.textContent = new Date().getFullYear();
 });
@@ -83,10 +78,10 @@ document.getElementById("lastModified").textContent = document.lastModified;
 
 // Hamburger menu logic
 const hamburgerButton = document.getElementById("hamburger");
-    const navMenu = document.getElementById("navMenu");
+const navMenu = document.getElementById("navMenu");
 
-    if (hamburgerButton && navMenu) {
-        hamburgerButton.addEventListener("click", () => {
-            navMenu.classList.toggle("show");
-        });
+if (hamburgerButton && navMenu) {
+    hamburgerButton.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+    });
 }
