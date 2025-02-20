@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Acknowledging the creators and sources behind our visuals and content. Discover the inspirations behind Rafael Rafting’s website.">
+    <meta name="author" content="Racheal Katono">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>Credits & Attributions | Rafael Rafting</title>
+</head>
+<body>
+
+    <main>
+        <h1>Credits & Attributions</h1>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Our Sources & Acknowledgments</h2>
+                <p>We appreciate the talented creators and resources that made our website possible. Below are the references for images, icons, and tools used on Rafael Rafting.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Image & Content References</h2>
+            <input type="text" id="searchBar" placeholder="Search references..." onkeyup="searchReferences()">
+            
+            <table id="referencesTable">
+                <tr>
+                    <th>Resource</th>
+                    <th>Source / Author</th>
+                    <th>License / Attribution</th>
+                    <th>Copy</th>
+                </tr>
+                <tr>
+                    <td>Rafting Adventure Image</td>
+                    <td><a href="https://unsplash.com" target="_blank">Unsplash</a></td>
+                    <td>Free for use, No attribution required</td>
+                    <td><button onclick="copyCitation(this)">📋 Copy</button></td>
+                </tr>
+                <tr>
+                    <td>Safety Equipment Image</td>
+                    <td><a href="https://pexels.com" target="_blank">Pexels</a></td>
+                    <td>Free for use, No attribution required</td>
+                    <td><button onclick="copyCitation(this)">📋 Copy</button></td>
+                </tr>
+                <tr>
+                    <td>Social Media, favicon</td>
+                    <td><a href="https://www.iconfinder.com/" target="_blank">Iconfinder</a></td>
+                    <td>Licensed icons</td>
+                    <td><button onclick="copyCitation(this)">📋 Copy</button></td>
+                </tr>
+                <tr>
+                    <td>Image Format Conversion</td>
+                    <td><a href="https://www.cloudconvert.com/" target="_blank">CloudConvert</a></td>
+                    <td>Online Image Converter</td>
+                    <td><button onclick="copyCitation(this)">📋 Copy</button></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <script src="scripts/Reference.js" defer></script>
+
+</body>
+</html>

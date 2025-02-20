@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             id: "imbalu",
             title: "Imbalu Circumcision Ceremony",
-            image: "images/imbalu.jpg",
+            image: "images/imbalu (1).webp",
             description: "A significant rite of passage among the Bagisu, marking the transition to manhood.",
            
         },
@@ -44,21 +44,21 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             id: "ekyooto",
             title: "Ekyooto Storytelling Tradition",
-            image: "images/Ekyooto.jpeg",
+            image: "images/Ekyooto.webp",
             description: "A cultural gathering around the fireplace where elders pass down wisdom through storytelling.",
            
         },
         {
             id: "kwanjula",
             title: "Kwanjula Introduction Ceremony",
-            image: "images/kwanjula.jpg",
+            image: "images/kwanjula.webp",
             description: "The traditional Baganda marriage introduction, filled with gifts, dances, and cultural rites.",
             
         },
         {
             id: "nyege-nyege",
             title: "Nyege Nyege Festival",
-            image: "images/Runyege-dance.jpeg",
+            image: "images/Runyege-dance.webp",
             description: "A vibrant cultural and musical festival celebrating Ugandan and African heritage.",
             
         },

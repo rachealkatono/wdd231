@@ -49,7 +49,7 @@ a:hover {
 .hero {
     position: relative;
     height: 350px;
-    background: url("../images/fashion.jpg") center/cover;
+    background: url("../images/fashion.webp") center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -309,6 +309,36 @@ textarea {
         width: 90%;
         margin: 20% auto;
     }
+}
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #0066cc;
+    color: white;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #021f3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #004c99;
 }
 
 footer {

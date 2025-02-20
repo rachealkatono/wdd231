@@ -50,7 +50,7 @@ a:hover {
 .hero {
     position: relative;
     height: 350px;
-    background: url("../images/fashion.jpg") center/cover;
+    background: url("../images/fashion.webp") center/cover;
     display: flex;
     align-items: center;
     justify-content: center;

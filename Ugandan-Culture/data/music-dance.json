@@ -8,7 +8,7 @@
         {
             "name": "Engalabi",
             "description": "A long drum used in Kiganda music, known for its deep resonant sound.",
-            "image": "images/Engalabi.jpeg"
+            "image": "images/Engalabi.webp"
         },
         {
             "name": "Amadinda",
@@ -18,17 +18,17 @@
         {
             "name": "Endingidi",
             "description": "A one-stringed fiddle commonly played among the Baganda and Banyankole.",
-            "image": "images/Endingidi.png"
+            "image": "images/Endingidi.webp"
         },
         {
             "name": "Ensaasi",
             "description": "Shakers made from gourds, filled with seeds or beads, used to add rhythm to Ugandan music.",
-            "image": "images/ensaasi.jpeg"
+            "image": "images/ensaasi.webp"
         },
         {
             "name": "Entongoli",
             "description": "A lyre instrument played by the Basoga, often accompanying traditional folk songs.",
-            "image": "images/entongoli.jpg"
+            "image": "images/entongoli.webp"
         },
         {
             "name": "Akogo",
@@ -50,12 +50,12 @@
         {
             "name": "Kiganda Dance",
             "description": "A popular dance among the Baganda, characterized by intricate footwork and graceful movements.",
-            "image": "images/maganda-dance.jpg"
+            "image": "images/maganda-dance.webp"
         },
         {
             "name": "Runyege Dance",
             "description": "A courtship dance of the Banyoro and Batooro, performed with ankle bells for rhythmic effect.",
-            "image": "images/Runyege-dance.jpeg"
+            "image": "images/Runyege-dance.webp"
         },
         {
             "name": "Ekizino Dance",
@@ -70,7 +70,7 @@
         {
             "name": "Ndere Troupe Dance",
             "description": "A fusion of different Ugandan traditional dances, performed by the famous Ndere Troupe.",
-            "image": "images/Ndere-dance.jpg"
+            "image": "images/Ndere-dance.webp"
         },
         {
            "name": "Ankole Dance",
